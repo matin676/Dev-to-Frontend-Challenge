@@ -58,7 +58,6 @@ nav ul li a:hover {
   border-radius: 2px;
 }
 
-/* Hamburger Menu for Mobile */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -101,13 +100,12 @@ footer a {
   text-decoration: none;
 }
 
-/* Navbar for Mobile */
 @media (max-width: 768px) {
   header h1 {
     font-size: 1.5rem;
   }
   header nav ul {
-    display: none; /* Hide nav links by default */
+    display: none; 
     flex-direction: column;
     position: absolute;
     top: 60px;
@@ -118,12 +116,12 @@ footer a {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   }
   header nav ul.active {
-    display: flex; /* Show nav links when active class is applied */
+    display: flex; 
   }
   .hamburger {
-    display: flex; /* Show hamburger menu */
+    display: flex; 
   }
   header {
-    position: relative; /* Ensure relative positioning for hamburger alignment */
+    position: relative; 
   }
 }
